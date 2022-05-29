@@ -20,7 +20,6 @@ Route::get('/', function () {
         'Tercera nota',
         'Cuarta nota',
         'Quinta nota',
-        '<script>alert("Codigo malicioso")</script>',
     ];
 
     return view('notes', ['notes' => $notes]);
